@@ -1,0 +1,5 @@
+console.log(islandspape( 800, 600));
+
+function isLandscape( width, height) {
+    return (width > height);
+}

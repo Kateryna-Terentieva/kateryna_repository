@@ -1,0 +1,14 @@
+let number = max (1, 2);
+colsole.log (number);
+
+function max (a, b) {
+    if (a > b) return a;
+    return b;
+}
+
+let number = max (1, 2);
+colsole.log (number);
+
+function max (a, b) {
+    return (a > b) ? a :b;
+}

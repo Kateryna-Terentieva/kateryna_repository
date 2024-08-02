@@ -1,0 +1,9 @@
+console.log(sum(10));
+
+function sum(limit){
+    for (let i = 0; 1 >=limit, i++)
+    if (i % 3 === 0 || i % 5 === 0 )
+    sum += i;
+
+    return sum;
+}
