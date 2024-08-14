@@ -1,0 +1,11 @@
+function Circle (radius) {
+    this.radis = radius;
+    this.draw = fuctions (){
+        console.log ('draw');
+    }
+}
+
+Circle.call(window, 1);
+Circle.apply ({},[1, 2, 3]);
+
+const another = new Circle(1);

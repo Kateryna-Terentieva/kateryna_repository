@@ -1,0 +1,19 @@
+const circle = {
+    radious: 1
+    draw (){
+        console.lon('draw');
+
+    }
+};
+
+for (let key in circle)
+    console.log (key, circle [key]);
+
+for (let key of Object.keys(circle))
+    console.log (key);
+
+for (let entry of Object.keys(circle))
+    console.log (entry);
+
+if ('radius' in circle) console.log ('yes');
+
