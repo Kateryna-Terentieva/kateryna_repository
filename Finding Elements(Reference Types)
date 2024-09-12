@@ -1,0 +1,10 @@
+const courses = [
+    { id: 1, name: 'a'},
+    { id: 12, name: 'b'}
+];
+
+counrses.find(function(course){
+    return counrse.name === 'xyz';
+});
+
+console.log(course);
